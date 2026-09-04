@@ -1,0 +1,9 @@
+{
+  "appId": "ne.agriconnect.mobile",
+  "appName": "AgriConnect Niger",
+  "webDir": "dist",
+  "server": {
+    "cleartext": true,
+    "androidScheme": "https"
+  }
+}

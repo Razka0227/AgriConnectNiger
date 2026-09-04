@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: agriconnect-backend
+  profiles:
+    active: dev
+  jackson:
+    default-property-inclusion: non_null
+
+server:
+  port: 8080
+
+app:
+  jwt:
+    secret: "AgriConnectNigerSecretKey2026ForJwtTokensSigningMustBeLongEnoughForHmacSha256!"
+    expiration-ms: 86400000
+  sms:
+    provider: mock
+    africa-talking:
+      username: sandbox
+      api-key: change-me
+      from: AgriConnect

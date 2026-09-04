@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">AgriConnect Niger</string>
+    <string name="title_activity_main">AgriConnect Niger</string>
+    <string name="package_name">ne.agriconnect.mobile</string>
+    <string name="custom_url_scheme">ne.agriconnect.mobile</string>
+</resources>
